@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Wypozyczenie" max_length="40" name="x_377047_zadanie_wypozyczenie" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" default="3" label="Status wypozyczenia" max_length="40" name="status_wypozyczenia" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Oczekiwanie na zgode" value="3"/>
+                <element inactive_on_update="false" label="Oddany" value="2"/>
+                <element inactive_on_update="false" label="Oddany w stanie zepsutym" value="5"/>
+                <element inactive_on_update="false" label="Odmowa wypozyczenia" value="4"/>
+                <element inactive_on_update="false" label="Sprawdzenie zwrotu" value="6"/>
+                <element inactive_on_update="false" label="Wypozyczony" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rzutniki" mandatory="true" max_length="40" name="u_choice_3" reference="x_377047_zadanie_rzutniki" reference_qual="status_rzutnika=2^EQ" reference_qual_condition="status_rzutnika=2^EQ" type="reference">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="2" value="Choice 1"/>
+            </choice>
+        </element>
+        <element label="Na kiedy" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element label="Do kiedy" max_length="40" name="u_glide_date_time_4" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Podaj mejla" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Przypomnienie o zwrocie</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-07-30 06:32:48</run_start>
+        <run_time>1970-01-01 16:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[	var rightNow = new GlideDateTime();
+	
+	var po_czasie = new GlideRecord('x_377047_zadanie_wypozyczenie');
+	po_czasie.addQuery('u_glide_date_time_4','<=',rightNow); //
+	po_czasie.addQuery('status_wypozyczenia',1);
+	
+	po_czasie.query();
+	while(po_czasie.next()){
+		//gs.info("Po czasie = " + po_czasie.number);
+		gs.eventQueue('x_377047_zadanie.Przekroczony_czas_zwrot',po_czasie,po_czasie.number,gs.getUserName());
+	}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-30 06:52:23</sys_created_on>
+        <sys_id>764d6e44db03330032402fb7489619c0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Przypomnienie o zwrocie</sys_name>
+        <sys_package display_value="Zadanie" source="x_377047_zadanie">e031d32cdbf2330032402fb7489619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zadanie">e031d32cdbf2330032402fb7489619ee</sys_scope>
+        <sys_update_name>sysauto_script_764d6e44db03330032402fb7489619c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-30 11:16:27</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

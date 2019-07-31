@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_377047_zadanie_wypozyczenie">sys_mod_count&lt;=0^u_glide_date_time_2NSAMEASu_glide_date_time_2@hour^EQ<item endquery="false" field="sys_mod_count" goto="false" newquery="false" operator="&lt;=" or="false" value="0"/>
+            <item endquery="false" field="u_glide_date_time_2" goto="false" newquery="false" operator="NSAMEAS" or="false" value="u_glide_date_time_2@hour"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Default access control on x_377047_zadanie_wypozyczenie</description>
+        <name>x_377047_zadanie_wypozyczenie</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 08:21:53</sys_created_on>
+        <sys_id>7e893da5db72330032402fb7489619b3</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>x_377047_zadanie_wypozyczenie</sys_name>
+        <sys_package display_value="Zadanie" source="x_377047_zadanie">e031d32cdbf2330032402fb7489619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zadanie">e031d32cdbf2330032402fb7489619ee</sys_scope>
+        <sys_update_name>sys_security_acl_7e893da5db72330032402fb7489619b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-30 10:49:48</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

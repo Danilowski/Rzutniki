@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_377047_zadanie.Przekroczony_czas_zwrot</event_name>
+        <fired_by>Scheduled Script Execution - Przypomnienie o zwrocie</fired_by>
+        <queue/>
+        <suffix>Przekroczony_czas_zwrotu</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-30 08:45:06</sys_created_on>
+        <sys_id>046b47c4db43330032402fb748961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_377047_zadanie.Przekroczony_czas_zwrot</sys_name>
+        <sys_package display_value="Zadanie" source="x_377047_zadanie">e031d32cdbf2330032402fb7489619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zadanie">e031d32cdbf2330032402fb7489619ee</sys_scope>
+        <sys_update_name>sysevent_register_046b47c4db43330032402fb748961919</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-30 09:07:10</sys_updated_on>
+        <table>x_377047_zadanie_wypozyczenie</table>
+    </sysevent_register>
+</record_update>

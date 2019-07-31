@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status_wypozyczenia" table="x_377047_zadanie_wypozyczenie" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_wypozyczenia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wypozyczony</label>
+            <language>en</language>
+            <name>x_377047_zadanie_wypozyczenie</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-24 10:42:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddec249adbb2330032402fb74896198e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-24 10:43:17</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_wypozyczenia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oddany</label>
+            <language>en</language>
+            <name>x_377047_zadanie_wypozyczenie</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-24 10:42:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34fc241adbb2330032402fb748961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-24 10:42:58</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_wypozyczenia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oczekiwanie na zgode</label>
+            <language>en</language>
+            <name>x_377047_zadanie_wypozyczenie</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-24 12:45:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ef8c1dadbf2330032402fb748961946</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-24 12:47:28</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_wypozyczenia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Odmowa wypozyczenia</label>
+            <language>en</language>
+            <name>x_377047_zadanie_wypozyczenie</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-24 12:45:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc1941dadbf2330032402fb748961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-24 12:45:46</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_wypozyczenia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oddany w stanie zepsutym</label>
+            <language>en</language>
+            <name>x_377047_zadanie_wypozyczenie</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-25 06:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58f9f0e2db32330032402fb7489619d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-25 06:19:45</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_wypozyczenia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sprawdzenie zwrotu</label>
+            <language>en</language>
+            <name>x_377047_zadanie_wypozyczenie</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-25 06:20:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>057a78e2db32330032402fb748961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-25 06:20:21</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status_wypozyczenia</element>
+            <name>x_377047_zadanie_wypozyczenie</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-24 10:42:38</sys_created_on>
+            <sys_id>37ecac5adbb2330032402fb74896194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status_wypozyczenia</sys_name>
+            <sys_package display_value="Zadanie" source="x_377047_zadanie">e031d32cdbf2330032402fb7489619ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Zadanie">e031d32cdbf2330032402fb7489619ee</sys_scope>
+            <sys_update_name>sys_choice_x_377047_zadanie_wypozyczenie_status_wypozyczenia</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-24 10:42:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

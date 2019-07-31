@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Rzutniki" language="en" table="x_377047_zadanie_rzutniki">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Rzutniki</label>
+            <language>en</language>
+            <name>x_377047_zadanie_rzutniki</name>
+            <plural>Rzutnikis</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-19 12:18:38</sys_created_on>
+            <sys_id>a1f25360db36330032402fb748961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rzutniki</sys_name>
+            <sys_package display_value="Zadanie" source="x_377047_zadanie">e031d32cdbf2330032402fb7489619ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Zadanie">e031d32cdbf2330032402fb7489619ee</sys_scope>
+            <sys_update_name>sys_documentation_x_377047_zadanie_rzutniki__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-19 12:18:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

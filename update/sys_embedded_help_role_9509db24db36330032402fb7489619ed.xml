@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_377047_zadanie.admin" name="x_377047_zadanie.admin">c5f81764db36330032402fb74896191c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 12:45:06</sys_created_on>
+        <sys_id>9509db24db36330032402fb7489619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c5f81764db36330032402fb74896191c</sys_name>
+        <sys_package display_value="Zadanie" source="x_377047_zadanie">e031d32cdbf2330032402fb7489619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zadanie">e031d32cdbf2330032402fb7489619ee</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9509db24db36330032402fb7489619ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 12:45:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

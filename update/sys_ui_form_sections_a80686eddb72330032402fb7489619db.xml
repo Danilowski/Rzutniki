@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a80686eddb72330032402fb7489619db" sys_domain="global" table="x_377047_zadanie_wypozyczenie" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-22 09:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c0686eddb72330032402fb7489619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_377047_zadanie_wypozyczenie" name="x_377047_zadanie_wypozyczenie" sys_domain="global" view="Default view">a80686eddb72330032402fb7489619db</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_377047_zadanie_wypozyczenie" sys_domain="global" view="Default view">625a79e5db72330032402fb748961995</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-22 09:16:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-22 09:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>380686eddb72330032402fb7489619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_377047_zadanie_wypozyczenie" name="x_377047_zadanie_wypozyczenie" sys_domain="global" view="Default view">a80686eddb72330032402fb7489619db</sys_ui_form>
+            <sys_ui_section caption="Dane" display_value="Dane" name="x_377047_zadanie_wypozyczenie" sys_domain="global" view="Default view">a80686eddb72330032402fb7489619da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-22 09:16:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_377047_zadanie_wypozyczenie</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-22 09:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a80686eddb72330032402fb7489619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_377047_zadanie_wypozyczenie</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Zadanie" source="x_377047_zadanie">e031d32cdbf2330032402fb7489619ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Zadanie">e031d32cdbf2330032402fb7489619ee</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a80686eddb72330032402fb7489619db</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-22 09:16:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

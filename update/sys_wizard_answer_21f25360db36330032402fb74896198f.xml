@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Rzutniki</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Rzutniki</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">8501e24a7d213300aadb74564bf59f00</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 12:18:38</sys_created_on>
+        <sys_id>21f25360db36330032402fb74896198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rzutniki</sys_name>
+        <sys_package display_value="Zadanie" source="x_377047_zadanie">e031d32cdbf2330032402fb7489619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zadanie">e031d32cdbf2330032402fb7489619ee</sys_scope>
+        <sys_update_name>sys_wizard_answer_21f25360db36330032402fb74896198f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 12:18:38</sys_updated_on>
+        <table/>
+        <target_url>x_377047_zadanie_rzutniki.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

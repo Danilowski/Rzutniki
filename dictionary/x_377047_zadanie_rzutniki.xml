@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci_hardware" label="Rzutniki" max_length="40" name="x_377047_zadanie_rzutniki" sizeclass="7" type="collection">
+        <element choice="3" label="Wypozyczony" max_length="40" name="czy_wypozyczony" reference="x_377047_zadanie_rzutniki" type="boolean">
+            <choice/>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Podglad" max_length="1024" name="podglad" reference="x_377047_zadanie_wypozyczenie" type="glide_list"/>
+        <element choice="1" label="status_rzutnika" max_length="40" name="status_rzutnika" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Oczekiwanie na decyzje" value="4"/>
+                <element inactive_on_update="false" label="Wolny" value="2"/>
+                <element inactive_on_update="false" label="Wypozyczony" value="3"/>
+                <element inactive_on_update="false" label="Zepsuty" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>
